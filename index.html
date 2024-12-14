@@ -1,94 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JTGeats</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
-</head>
-<body>
-  <!-- Navigation Section -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">JTGeats</div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="icons">
-        <i class="fas fa-search"></i>
-        <i class="fa-solid fa-bag-shopping"></i>
-      </div>
-    </nav>
-  </header>
-
-  <!-- main Section -->
-  <main>
-    <section class="hero">
-      <div class="hero-text">
-        <h1>Authentic Home food in India</h1>
-        <p>
-          JTGeats is a courier service in which authentic home cook food is delivered to a customer.
-        </p>
-        <div class="search-bar">
-          <input type="text" placeholder="Search food you love">
-          <button>Search</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JTGeats</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation Section -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">JTGeats</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="icons">
+          <i class="fas fa-search"></i>
+          <i class="fa-solid fa-bag-shopping"></i>
         </div>
-      </div>
-      <div class="hero-image">
-        <img src="Images/chefImage.jpg" alt="Chef Illustration">
-      </div>
-    </section>
+      </nav>
+    </header>
 
-    <!-- Product Grid Section -->
-   <section class="home-kitchen">
-    <h1>Home Kitchen</h1>
-    <div class="res-cards">
-      <div class="res-card">
-        <img src="" alt="" class="card__image">
-        <div class="name_and_price">
-          <h2>Home made pizza</h2>
-          <h2>price</h2>
-        </div>
-        <div class="rating_time_cont">
-          <div class="rating_and_time">
-            <h2>rating</h2>
-            <h2>time</h2>
-          </div>
-          <div>
-            <h2>add to cart icon</h2>
+    <!-- main Section -->
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Authentic Home food in India</h1>
+          <p>
+            JTGeats is a courier service in which authentic home cook food is
+            delivered to a customer.
+          </p>
+          <div class="search-bar">
+            <input type="text" placeholder="Search food you love" />
+            <button>Search</button>
           </div>
         </div>
-      </div>
-      <div class="popular-items">
-        <div class="corousel">
-
+        <div class="hero-image">
+          <img src="Images/chefImage.jpg" alt="Chef Illustration" />
         </div>
-        <button>
-          request a dish
-        </button>
-      </div>
-    </div>
-   </section class="video section"> 
-   <!-- video section --> 
-   <section>
+      </section>
 
-   </section class= "form section">
-    <!-- form section-->
-    <section>
+      <!-- Product Grid Section -->
+      <section class="home-kitchen">
+        <h1>Home Kitchen</h1>
+        <div id="card-container" class="res-cards"></div>
+        <div class="popular-items">
+          <h2>Popular Items</h2>
+          <div class="corousel"></div>
+          <button>request a dish</button>
+        </div>
+      </section>
 
-    </section>
-  </main>
+      <!-- video section -->
+      <section class="video-section"></section>
 
-  <footer>
+      <!-- form section-->
+      <section></section>
+    </main>
 
-  </footer>
-</body>
+    <footer></footer>
+    <script src="index.js"></script>
+  </body>
 </html>

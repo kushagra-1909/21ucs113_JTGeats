@@ -7,9 +7,6 @@
   font-style: normal;
 }
 
-body {
-    margin: 0;
-  }
   
   .navbar {
     display: flex;
@@ -34,13 +31,13 @@ body {
   
   .nav-links a {
     text-decoration: none;
-    color: #fff;
+    color: #f2f2f2;
     font-size: 18px;
   }
   
   .icons i {
     font-size: 24px;
-    color: #fff;
+    color: #f2f2f2;
     margin-left: 15px;
   }
   
@@ -60,6 +57,7 @@ body {
   .hero-text h1 {
     font-size: 48px;
     margin-bottom: 20px;
+    color: #f2f2f2
   }
   
   .hero-text p {
@@ -83,7 +81,7 @@ body {
   .search-bar button {
     padding: 10px 20px;
     background-color: #f4b400;
-    color: #fff;
+    color: #f2f2f2;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -101,4 +99,91 @@ body {
 
 .res-card{
   background-color: #f2f2f2;
+}
+
+/* General Styling */
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.home-kitchen {
+  padding: 40px 20px;
+}
+
+.res-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Individual Card Styling */
+.res-card {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.res-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card__image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.name_and_price{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.rating_time_cont{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.rating-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating-time div{
+  margin: 5px;
+  background-color: #F0FAF7;
+  padding: 5px;
+}
+
+.rating i {
+  color: #ffd700;
+  margin-right: 5px;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #ff6a00;
+  color: #f2f2f2;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
