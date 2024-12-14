@@ -1,8 +1,14 @@
 /* styles.css */
 
+.rubik-jtgeats {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
   }
   
   .navbar {
@@ -16,7 +22,7 @@ body {
   .navbar .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #fff;
+    color: #f2f2f2;
   }
   
   .nav-links {
@@ -43,8 +49,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    background-color: #0f9d58;
-    color: #fff;
+    background-color: #1AC073;
+    color: #f2f2f2;
   }
   
   .hero-text {
@@ -88,63 +94,6 @@ body {
     max-width: 100%;
     height: auto;
   }
-
-.product-grid {
-  padding: 50px;
-  background-color: #f9f9f9;
-}
-
-.product-grid h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-
-.product-card {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.product-card img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.product-card h3 {
-  font-size: 18px;
-  margin: 10px 0;
-}
-
-.product-card p {
-  font-size: 16px;
-  color: #333;
-}
-
-.product-card .rating {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin: 10px 0;
-}
-
-.product-card button {
-  background-color: #0f9d58;
-  color: #fff;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
 
 .home-kitchen{
   background-color: #F0FAF7;
